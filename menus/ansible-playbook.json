@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ansible-playbook",
+        "command": "ansible-playbook:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Ansible Playbook",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ansible-playbook:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
